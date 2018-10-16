@@ -4,3 +4,16 @@ header {
     justify-content: center;
     text-align: center;
 }
+h1 {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.95);
+}
+.slogan {
+    font-weight: lighter;
+    color:  rgba(255, 255, 255, 0.85);
+    font-size: 1.6rem;
+}
+/* Added slight dropshadow to make header text more readable */
+h1, .slogan {
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.5));
+}
