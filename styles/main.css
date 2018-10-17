@@ -47,4 +47,5 @@ footer.mdl-mini-footer {
 
 footer.mdl-mini-footer > ul {
     margin: auto;
+    font-size: 1.75rem;
 }
